@@ -1,0 +1,101 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #F1EAFF;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.header {
+    height: 65px;
+    background-color: #D0A2F7;
+    text-align: center;
+    padding: 5px 0 55px 0;
+    color: rgb(56, 17, 69);
+    box-shadow: 0 1px 10px rgb(56, 17, 69);
+    font-size: 25px;
+    font-family: 'Tapestry', serif;
+}
+
+.caption {
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#captionBtn {
+    font-size: 20px;
+    font-weight: bold;
+    width: 25%;
+    height: 55px;
+    border: 1px solid rgb(56, 17, 69);
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(56, 17, 69, 0.79);
+    font-family: 'Tapestry', serif;
+}
+
+.get-input {
+    padding-top: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.text {
+    margin-right: 10px;
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    color: rgb(56, 17, 69);
+    border: 0;
+    box-shadow: 3px 3px 5px rgba(65, 6, 85, 0.414);
+}
+
+.add {
+    width: 200px;
+    height: 43px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px rgba(65, 6, 85, 0.414);
+    font-family: 'Tapestry', serif;
+    cursor: pointer;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+li{
+    box-shadow: 3px 3px 5px rgba(65, 6, 85, 0.414);
+    width: 712px;
+    height: 43px;
+    background-color: white;
+    list-style: none;
+    margin-bottom: 10px;
+}
+span {
+    float: left;
+    padding: 10px 0 0 10px;
+    font-size: 20px;
+    color: rgb(56, 17, 69);
+}
+.del, .edit {
+    float: right;
+    margin: 8px 15px 0 0;
+    color: rgb(56, 17, 69);
+    font-size: 20px;
+}
+
+.edit_input {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 25px;
+    width: 350px;
+    color: rgb(56, 17, 69)
+}
+.update {
+    float: right;
+    margin: 8px 15px 0 0;
+    color: rgb(56, 17, 69);
+    font-size: 20px;
+}
